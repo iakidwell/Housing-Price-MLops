@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Custom MLOps Project Ignored Files ---
+
+# MLflow local storage (Thousands of tiny files - DO NOT UPLOAD)
+mlruns/
+.trash/
+
+# Databricks/AutoML logs
+flaml.log
+
+# Mac System Files (Since your path shows you are on a Mac)
+.DS_Store
+
+# Optional: If you ever decide your data is too big for GitHub
+# data/*.csv
